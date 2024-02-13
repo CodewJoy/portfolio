@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ec0172ef.css",
+    "main.js": "/portfolio/static/js/main.eb69a9da.js",
+    "static/js/787.56571d65.chunk.js": "/portfolio/static/js/787.56571d65.chunk.js",
+    "static/media/mapbox_covid19.png": "/portfolio/static/media/mapbox_covid19.445acd2a95599e5cb463.png",
+    "static/media/mapbox_animation.png": "/portfolio/static/media/mapbox_animation.4d0226a7c10867f47dc4.png",
+    "static/media/personal_blog.png": "/portfolio/static/media/personal_blog.13f0e8c24868831715ea.png",
+    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.77cdcd41259beba9cb1b.jpg",
+    "static/media/soul_fun.png": "/portfolio/static/media/soul_fun.ae44992da32daefee910.png",
+    "static/media/taiwan_nice_weather.png": "/portfolio/static/media/taiwan_nice_weather.479f1652878c71d384a1.png",
+    "static/media/react.svg": "/portfolio/static/media/react.098ed44a66ecaf1a5c3272d1d957b7a1.svg",
+    "static/media/us.svg": "/portfolio/static/media/us.fa100b9b79e55fd9c445917cec49c98a.svg",
+    "static/media/taiwan.svg": "/portfolio/static/media/taiwan.706d5f78a1dc0ef94559d8475fbe10a8.svg",
+    "static/media/leetcode.svg": "/portfolio/static/media/leetcode.410cf1d357d6856284fb0670e0d60bcf.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/github.svg": "/portfolio/static/media/github.4e89070887f070dbde20cf268ac5ca69.svg",
+    "static/media/laptop.svg": "/portfolio/static/media/laptop.9215b3cda4964b54c83b495f6f095347.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.f27a2535baf0dddc452596bbcd23830c.svg",
+    "static/media/start.svg": "/portfolio/static/media/start.41396848ce3268f411d57ca31ca5232d.svg",
+    "main.ec0172ef.css.map": "/portfolio/static/css/main.ec0172ef.css.map",
+    "main.eb69a9da.js.map": "/portfolio/static/js/main.eb69a9da.js.map",
+    "787.56571d65.chunk.js.map": "/portfolio/static/js/787.56571d65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec0172ef.css",
+    "static/js/main.eb69a9da.js"
+  ]
+}
