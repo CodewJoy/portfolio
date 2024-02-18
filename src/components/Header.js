@@ -29,20 +29,9 @@ const StyledIconWrapper = styled.div`
   justify-content: center;
   padding: 0 0 20px 0;
 `;
-const StyledGithubIcon = styled.img`
+const StyledIcon = styled.img`
   width: 30px;
   margin: 10px;
-  fill: rgb(174, 148, 79);
-`;
-const StyledLeetcodeIcon = styled.img`
-  width: 30px;
-  margin: 10px;
-  fill: rgb(174, 148, 79);
-`;
-const StyledLinkedinIcon = styled.img`
-  width: 30px;
-  margin: 10px;
-  fill: rgb(174, 148, 79);
 `;
 
 const Header = (props) => {
@@ -57,21 +46,21 @@ const Header = (props) => {
       <h2>{transText.job}</h2>
       <StyledIconWrapper>
         <a href="https://github.com/CodewJoy" target="_blank" rel="noreferrer">
-          <StyledGithubIcon src={github} alt="icon" />
+          <StyledIcon src={github} alt="icon" />
         </a>
         <a
           href="https://leetcode.com/codewjoy/"
           target="_blank"
           rel="noreferrer"
         >
-          <StyledLeetcodeIcon src={leetcode} alt="icon" />
+          <StyledIcon src={leetcode} alt="icon" />
         </a>
         <a
           href="https://www.linkedin.com/in/joy-h-0283ab5b/"
           target="_blank"
           rel="noreferrer"
         >
-          <StyledLinkedinIcon src={linkedin} alt="icon" />
+          <StyledIcon src={linkedin} alt="icon" />
         </a>
       </StyledIconWrapper>
       <StyledLanIcon

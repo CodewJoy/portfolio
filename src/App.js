@@ -1,6 +1,6 @@
-import { useTranslation, Trans } from "react-i18next";
 import styled from "styled-components";
 import React from "react";
+import { useTranslation, Trans } from "react-i18next";
 import { Link, Element } from "react-scroll";
 import Header from "./components/Header";
 import About from "./components/About";
