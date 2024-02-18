@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ec0172ef.css",
-    "main.js": "/portfolio/static/js/main.eb69a9da.js",
-    "static/js/787.56571d65.chunk.js": "/portfolio/static/js/787.56571d65.chunk.js",
+    "main.js": "/portfolio/static/js/main.60360d75.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/mapbox_covid19.png": "/portfolio/static/media/mapbox_covid19.445acd2a95599e5cb463.png",
     "static/media/mapbox_animation.png": "/portfolio/static/media/mapbox_animation.4d0226a7c10867f47dc4.png",
     "static/media/personal_blog.png": "/portfolio/static/media/personal_blog.13f0e8c24868831715ea.png",
@@ -19,11 +19,11 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.f27a2535baf0dddc452596bbcd23830c.svg",
     "static/media/start.svg": "/portfolio/static/media/start.41396848ce3268f411d57ca31ca5232d.svg",
     "main.ec0172ef.css.map": "/portfolio/static/css/main.ec0172ef.css.map",
-    "main.eb69a9da.js.map": "/portfolio/static/js/main.eb69a9da.js.map",
-    "787.56571d65.chunk.js.map": "/portfolio/static/js/787.56571d65.chunk.js.map"
+    "main.60360d75.js.map": "/portfolio/static/js/main.60360d75.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec0172ef.css",
-    "static/js/main.eb69a9da.js"
+    "static/js/main.60360d75.js"
   ]
 }
