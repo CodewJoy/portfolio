@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 import laptop from "../images/laptop.svg";
 import us from "../images/us.svg";
 import taiwan from "../images/taiwan.svg";
@@ -35,15 +36,23 @@ const StyledIcon = styled.img`
 `;
 
 const Header = (props) => {
-  const { changeLanguage, transText } = props;
-  const [language, setLanguage] = useState("en");
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+  const [language, setLanguage] = useState(currentLanguage);
 
+  // console.log("i18n", i18n);
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
+  const { transText } = props;
   return (
     <StyledHeader>
       <StyledLaptopIcon src={laptop} alt="icon" />
       <br />
       <h1>{transText.name}</h1>
       <h2>{transText.job}</h2>
+      <small>Contact: yichen.hung6699@gmail.com</small>
       <StyledIconWrapper>
         <a href="https://github.com/CodewJoy" target="_blank" rel="noreferrer">
           <StyledIcon src={github} alt="icon" />

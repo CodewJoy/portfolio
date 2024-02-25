@@ -36,11 +36,7 @@ const StyledFooter = styled.div`
 `;
 
 function App() {
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  const { t } = useTranslation();
 
   return (
     <div className="App">
@@ -63,10 +59,7 @@ function App() {
           </StyledBlogLink>
         </StyledTopText>
       </StyledTop>
-      <Header
-        transText={{ name: t("Name"), job: t("Job") }}
-        changeLanguage={changeLanguage}
-      />
+      <Header transText={{ name: t("Name"), job: t("Job") }} />
       <Element name="about">
         <About
           transText={{
