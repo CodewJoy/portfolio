@@ -22,7 +22,7 @@ i18n
           AboutMe: "ABOUT ME",
           Hi: "Hi",
           Intro:
-            "👋  Hello! I'm Joy Hung, a front-end professional with over 3 years of experience. Familiar with HTML, CSS, JavaSript, TypeScript, React and Redux. Love to study how different technologies are implemented. Aim to be a problem-solver willing to do cross-functional communication. 💜",
+            "👋  Hello! I'm Joy Hung, a front-end professional with 4+ years of experience. Familiar with HTML, CSS, JavaSript, TypeScript, React and Redux. Love to study how different technologies are implemented. Aim to be a problem-solver willing to do cross-functional communication. 💜",
           "Map Animation with Mapbox": "Map Animation with Mapbox",
           "Markdown Blog with Next.js": "Markdown Blog with Next.js",
           "Realtime Weather App with React Hooks":
@@ -45,7 +45,7 @@ i18n
           AboutMe: "關於我",
           Hi: "嗨",
           Intro:
-            "👋 你好。我是洪以真，一名有超過3年經驗的前端工程師。熟悉 HTML，CSS，JavaSript，TypeScript，React 與 Redux。喜歡研究不同前端應用使用的技術，樂意與不同部門溝通並解決問題 💜",
+            "👋 你好。我是洪以真，一個有 4 年經驗的前端工程師。熟悉 HTML，CSS，JavaSript，TypeScript，React 與 Redux。喜歡研究不同前端應用技術，樂意與不同部門溝通並解決問題 💜",
           "Map Animation with Mapbox": "使用 Mapbox 製作地圖動畫",
           "Markdown Blog with Next.js": "使用 Next.js 製作 Markdown 部落格",
           "Realtime Weather App with React Hooks":
