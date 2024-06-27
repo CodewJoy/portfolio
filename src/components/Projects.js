@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import React from "react";
 import styled from "styled-components";
+import threebox_earthquake from "../images/threebox_earthquake.png";
 import mapbox_animation from "../images/mapbox_animation.png";
 import mapbox_covid19 from "../images/mapbox_covid19.png";
 import personal_blog from "../images/personal_blog.png";
@@ -35,6 +36,11 @@ const StyledPic = styled.img`
 `;
 
 const projects = [
+  {
+    name: "3D Map Data Visualization with Threebox",
+    pic: threebox_earthquake,
+    url: "https://github.com/CodewJoy/3d_map_data_visualization_threebox",
+  },
   {
     name: "Map Animation with Mapbox",
     pic: mapbox_animation,
