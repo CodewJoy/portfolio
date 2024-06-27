@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec0172ef.css",
+    "main.css": "/portfolio/static/css/main.cec7ed0b.css",
     "main.js": "/portfolio/static/js/main.cf9a93ab.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/mapbox_covid19.png": "/portfolio/static/media/mapbox_covid19.445acd2a95599e5cb463.png",
@@ -19,12 +19,12 @@
     "static/media/laptop.svg": "/portfolio/static/media/laptop.9215b3cda4964b54c83b495f6f095347.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.f27a2535baf0dddc452596bbcd23830c.svg",
     "static/media/start.svg": "/portfolio/static/media/start.41396848ce3268f411d57ca31ca5232d.svg",
-    "main.ec0172ef.css.map": "/portfolio/static/css/main.ec0172ef.css.map",
+    "main.cec7ed0b.css.map": "/portfolio/static/css/main.cec7ed0b.css.map",
     "main.cf9a93ab.js.map": "/portfolio/static/js/main.cf9a93ab.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec0172ef.css",
+    "static/css/main.cec7ed0b.css",
     "static/js/main.cf9a93ab.js"
   ]
 }
