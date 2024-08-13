@@ -30,6 +30,8 @@ i18n
           "COVID-19 map with React and Mapbox":
             "COVID-19 map with React and Mapbox",
           "Social Web App with React": "Social Web App with React",
+          "Realize Room Allocation with Custom component in React & TypeScript":
+            "Realize Room Allocation with Custom component in React & TypeScript",
         },
       },
       ch: {
@@ -55,6 +57,8 @@ i18n
           "COVID-19 map with React and Mapbox":
             "使用 React 和 Mapbox 製作 COVID-19 地圖",
           "Social Web App with React": "使用 React 製作交友網站應用程式",
+          "Realize Room Allocation with Custom component in React & TypeScript":
+            "在 React 與 TypeScript 中使用自訂元件實現最佳房間分配",
         },
       },
     },

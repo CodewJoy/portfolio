@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import React from "react";
 import styled from "styled-components";
+import react_react_allocation from "../images/react_react_allocation_cmpt.png";
 import threebox_earthquake from "../images/threebox_earthquake.png";
 import mapbox_animation from "../images/mapbox_animation.png";
 import mapbox_covid19 from "../images/mapbox_covid19.png";
@@ -36,6 +37,11 @@ const StyledPic = styled.img`
 `;
 
 const projects = [
+  {
+    name: "Realize Room Allocation with Custom component in React & TypeScript",
+    pic: react_react_allocation,
+    url: "https://github.com/CodewJoy/react-room-allocation",
+  },
   {
     name: "3D Map Data Visualization with Threebox",
     pic: threebox_earthquake,
