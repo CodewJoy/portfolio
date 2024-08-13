@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cec7ed0b.css",
-    "main.js": "/portfolio/static/js/main.cf9a93ab.js",
+    "main.js": "/portfolio/static/js/main.ded2d959.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/mapbox_covid19.png": "/portfolio/static/media/mapbox_covid19.445acd2a95599e5cb463.png",
     "static/media/threebox_earthquake.png": "/portfolio/static/media/threebox_earthquake.1dc0f827968e843b327b.png",
@@ -9,6 +9,7 @@
     "static/media/personal_blog.png": "/portfolio/static/media/personal_blog.13f0e8c24868831715ea.png",
     "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.77cdcd41259beba9cb1b.jpg",
     "static/media/soul_fun.png": "/portfolio/static/media/soul_fun.ae44992da32daefee910.png",
+    "static/media/react_react_allocation_cmpt.png": "/portfolio/static/media/react_react_allocation_cmpt.32510f6e63d67b1c4570.png",
     "static/media/taiwan_nice_weather.png": "/portfolio/static/media/taiwan_nice_weather.479f1652878c71d384a1.png",
     "static/media/react.svg": "/portfolio/static/media/react.098ed44a66ecaf1a5c3272d1d957b7a1.svg",
     "static/media/us.svg": "/portfolio/static/media/us.fa100b9b79e55fd9c445917cec49c98a.svg",
@@ -20,11 +21,11 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.f27a2535baf0dddc452596bbcd23830c.svg",
     "static/media/start.svg": "/portfolio/static/media/start.41396848ce3268f411d57ca31ca5232d.svg",
     "main.cec7ed0b.css.map": "/portfolio/static/css/main.cec7ed0b.css.map",
-    "main.cf9a93ab.js.map": "/portfolio/static/js/main.cf9a93ab.js.map",
+    "main.ded2d959.js.map": "/portfolio/static/js/main.ded2d959.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cec7ed0b.css",
-    "static/js/main.cf9a93ab.js"
+    "static/js/main.ded2d959.js"
   ]
 }
