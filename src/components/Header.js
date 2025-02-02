@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useCallback } from "react";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 import laptop from "../images/laptop.svg";
@@ -7,6 +7,7 @@ import taiwan from "../images/taiwan.svg";
 import github from "../images/github.svg";
 import leetcode from "../images/leetcode.svg";
 import linkedin from "../images/linkedin.svg";
+import { EN, ZH } from "../i18n";
 
 const StyledHeader = styled.div`
   width: 100%;
@@ -36,16 +37,22 @@ const StyledIcon = styled.img`
 `;
 
 const Header = (props) => {
+  const { transText } = props;
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
-  const [language, setLanguage] = useState(currentLanguage);
-
-  // console.log("i18n", i18n);
-  const changeLanguage = (lng) => {
+  const isZH = currentLanguage.includes(ZH);
+  const changeLanguage = useCallback((lng) => {
     i18n.changeLanguage(lng);
-  };
+  }, [i18n]);
 
-  const { transText } = props;
+  useEffect(() => {
+    if (isZH) {
+      i18n.changeLanguage(ZH);
+    } else {
+      changeLanguage(EN);
+    }
+  }, [isZH,  i18n]);
+
   return (
     <StyledHeader>
       <StyledLaptopIcon src={laptop} alt="icon" />
@@ -75,20 +82,14 @@ const Header = (props) => {
       <StyledLanIcon
         src={us}
         alt="icon"
-        selected={language === "en"}
-        onClick={() => {
-          changeLanguage("en");
-          setLanguage("en");
-        }}
+        selected={!isZH}
+        onClick={() =>  changeLanguage(EN)}
       />
       <StyledLanIcon
         src={taiwan}
         alt="icon"
-        selected={language === "ch"}
-        onClick={() => {
-          changeLanguage("ch");
-          setLanguage("ch");
-        }}
+        selected={isZH}
+        onClick={() => changeLanguage(ZH)}
       />
     </StyledHeader>
   );

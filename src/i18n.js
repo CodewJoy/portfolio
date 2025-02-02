@@ -2,13 +2,16 @@ import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
+export const EN = "en";
+export const ZH = "zh";
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     // we init with resources
     resources: {
-      en: {
+      [EN]: {
         translations: {
           "To get started, edit <1>src/App.js</1> and save to reload.":
             "To get started, edit <1>src/App.js</1> and save to reload.",
@@ -34,7 +37,7 @@ i18n
             "Realize Room Allocation with Custom component in React & TypeScript",
         },
       },
-      ch: {
+      [ZH]: {
         translations: {
           "To get started, edit <1>src/App.js</1> and save to reload.":
             "Starte in dem du, <1>src/App.js</1> editierst und speicherst.",
@@ -62,7 +65,7 @@ i18n
         },
       },
     },
-    fallbackLng: "en",
+    fallbackLng: EN,
     debug: true,
 
     // have a common namespace used around the full app
