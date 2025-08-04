@@ -8,6 +8,7 @@ import mapbox_covid19 from "../images/mapbox_covid19.png";
 import personal_blog from "../images/personal_blog.png";
 import taiwan_nice_weather from "../images/taiwan_nice_weather.png";
 import soul_fun from "../images/soul_fun.png";
+import xml_diff from "../images/xml_diff.png";
 
 const StyledWrapper = styled.section`
   width: 100%;
@@ -31,12 +32,18 @@ const StyledProject = styled.div`
   border-radius: 4px;
 `;
 const StyledPic = styled.img`
+  border: 1px solid gray;
   height: auto;
   width: 300px;
   text-align: center;
 `;
 
 const projects = [
+  {
+    name: "Realize XML diff viewer with React & TypeScript",
+    pic: xml_diff,
+    url: "https://github.com/CodewJoy/xml-diff",
+  },
   {
     name: "Realize Room Allocation with Custom component in React & TypeScript",
     pic: react_react_allocation,

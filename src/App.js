@@ -8,7 +8,6 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 
 const StyledTop = styled.div`
-  // position: fixed;
   display: flex;
   height: 40px;
   width: 100%;

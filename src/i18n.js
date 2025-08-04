@@ -25,7 +25,7 @@ i18n
           AboutMe: "ABOUT ME",
           Hi: "Hi",
           Intro:
-            "👋  Hello! I'm Joy Hung, a front-end professional with 4+ years of experience. Familiar with HTML, CSS, JavaSript, TypeScript, React and Redux. Love to study how different technologies are implemented. Aim to be a problem-solver willing to do cross-functional communication. 💜",
+            "👋  Hello! I'm Joy Hung, a front-end professional with 5+ years of experience. Familiar with HTML, CSS, JavaSript, TypeScript, React and Redux. Love to study how different technologies are implemented. Aim to be a problem-solver willing to do cross-functional communication. 💜",
           "Map Animation with Mapbox": "Map Animation with Mapbox",
           "Markdown Blog with Next.js": "Markdown Blog with Next.js",
           "Realtime Weather App with React Hooks":
@@ -35,6 +35,8 @@ i18n
           "Social Web App with React": "Social Web App with React",
           "Realize Room Allocation with Custom component in React & TypeScript":
             "Realize Room Allocation with Custom component in React & TypeScript",
+          "Realize XML diff viewer with React & TypeScript":
+            "Realize XML diff viewer with React & TypeScript",
         },
       },
       [ZH]: {
@@ -50,7 +52,7 @@ i18n
           AboutMe: "關於我",
           Hi: "嗨",
           Intro:
-            "👋 你好。我是洪以真，一個有 4+ 年經驗的前端工程師。熟悉 HTML，CSS，JavaSript，TypeScript，React 與 Redux。喜歡研究不同前端應用技術，樂意與不同部門溝通並解決問題 💜",
+            "👋 你好。我是洪以真，一個有 5+ 年經驗的前端工程師。熟悉 HTML，CSS，JavaSript，TypeScript，React 與 Redux。喜歡研究不同前端應用技術，樂意與不同部門溝通並解決問題 💜",
           "3D Map Data Visualization with Threebox":
             "使用 Threebox 製作 3D 地圖資料視覺化",
           "Map Animation with Mapbox": "使用 Mapbox 製作地圖動畫",
@@ -61,7 +63,9 @@ i18n
             "使用 React 和 Mapbox 製作 COVID-19 地圖",
           "Social Web App with React": "使用 React 製作交友網站應用程式",
           "Realize Room Allocation with Custom component in React & TypeScript":
-            "在 React 與 TypeScript 中使用自訂元件實現最佳房間分配",
+            "用 React 與 TypeScript 實作自訂元件與最佳房間分配",
+          "Realize XML diff viewer with React & TypeScript":
+            "用 React 與 TypeScript 中實現 XML 差異比較",
         },
       },
     },
