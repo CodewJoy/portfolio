@@ -34,21 +34,24 @@ const StyledFooter = styled.div`
   background: black;
 `;
 
-function App() {
+const App: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <div className="App">
       <StyledTop>
         <Link to="about" spy={true} smooth={true} duration={500}>
-          <StyledTopText>{t("About")}</StyledTopText>|
+          <StyledTopText>{t("About")}</StyledTopText>
         </Link>
+        <span>|</span>
         <Link to="experience" spy={true} smooth={true} duration={500}>
-          <StyledTopText>{t("Experience")}</StyledTopText>|
+          <StyledTopText>{t("Experience")}</StyledTopText>
         </Link>
+        <span>|</span>
         <Link to="projects" spy={true} smooth={true} duration={500}>
-          <StyledTopText>{t("Projects")}</StyledTopText>|
+          <StyledTopText>{t("Projects")}</StyledTopText>
         </Link>
+        <span>|</span>
         <StyledTopText>
           <StyledBlogLink
             href="https://code-to-joy-blog.vercel.app/"
@@ -90,6 +93,6 @@ function App() {
       </StyledFooter>
     </div>
   );
-}
+};
 
 export default App;

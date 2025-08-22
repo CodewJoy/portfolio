@@ -7,42 +7,19 @@ import "react-vertical-timeline-component/style.min.css";
 import react from "../images/react.svg";
 import start from "../images/start.svg";
 
-const StyledWrapper = styled.section`
-  width: 100%;
-  text-align: center;
-  padding: 25px;
-  font-size: 26px;
-  background: #e9d5a1;
-`;
-const StyledTimelineWrapper = styled.div`
-  width: 95%;
-  padding: 20px 0 0 0;
-`;
-const StyledTimelineContent = styled.div`
-  text-align: left;
-  font-size: 18px;
-`;
-const StyledIcon = styled.img`
-  width: 100%;
-  padding: 5px;
-  background: rgb(174, 148, 79);
-  border-radius: 50%;
-`;
-const StyledSkill = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 10px 0;
-  font-size: 12px;
-`;
-const StyledBadge = styled.div`
-  width: fit-content;
-  padding: 5px 10px;
-  margin: 5px 5px 5px 0;
-  border-radius: 10px;
-  background: #f9f5e9;
-`;
-const experience = [
+interface ExperienceProps {
+  transText: {
+    experience: string;
+  };
+}
+
+interface ExperienceItem {
+  company: string;
+  title: string;
+  time: string;
+  skill: string[];
+}
+const experience: ExperienceItem[] = [
   {
     company: "Groundhog Technologies",
     title: "Frontend Web Developer",
@@ -80,6 +57,43 @@ const experience = [
     ],
   },
 ];
+
+const StyledWrapper = styled.section`
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  font-size: 26px;
+  background: #e9d5a1;
+`;
+const StyledTimelineWrapper = styled.div`
+  width: 95%;
+  padding: 20px 0 0 0;
+`;
+const StyledTimelineContent = styled.div`
+  text-align: left;
+  font-size: 18px;
+`;
+const StyledIcon = styled.img`
+  width: 100%;
+  padding: 5px;
+  background: rgb(174, 148, 79);
+  border-radius: 50%;
+`;
+const StyledSkill = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 12px;
+`;
+const StyledBadge = styled.div`
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  border-radius: 10px;
+  background: #f9f5e9;
+`;
+
 const Experience = (props) => {
   const { transText } = props;
   const work = experience.map((item) => (

@@ -9,6 +9,13 @@ import leetcode from "../images/leetcode.svg";
 import linkedin from "../images/linkedin.svg";
 import { EN, ZH } from "../i18n";
 
+interface HeaderProps {
+  transText: {
+    name: string;
+    job: string;
+  };
+}
+
 const StyledHeader = styled.div`
   width: 100%;
   background: #e9d5a1;
@@ -18,7 +25,7 @@ const StyledLaptopIcon = styled.img`
   margin: 15px 0 0 0;
   width: 120px;
 `;
-const StyledLanIcon = styled.img`
+const StyledLanIcon = styled.img<{ selected: boolean }>`
   cursor: pointer;
   width: 60px;
   padding: 0 5px;
@@ -36,7 +43,7 @@ const StyledIcon = styled.img`
   margin: 10px;
 `;
 
-const Header = (props) => {
+const Header: React.FC<HeaderProps> = (props) => {
   const { transText } = props;
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;

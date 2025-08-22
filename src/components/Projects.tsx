@@ -10,35 +10,19 @@ import taiwan_nice_weather from "../images/taiwan_nice_weather.png";
 import soul_fun from "../images/soul_fun.png";
 import xml_diff from "../images/xml_diff.png";
 
-const StyledWrapper = styled.section`
-  width: 100%;
-  text-align: center;
-  padding: 25px;
-  font-size: 26px;
-`;
-const StyledProjectWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px 0 0 0;
-  font-size: 20px;
-`;
-const StyledProject = styled.div`
-  max-width: 320px;
-  padding: 10px;
-  margin: 12px;
-  border: 1px solid lightgray;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
-`;
-const StyledPic = styled.img`
-  border: 1px solid gray;
-  height: auto;
-  width: 300px;
-  text-align: center;
-`;
+interface ProjectsProps {
+  transText: {
+    projects: string;
+  };
+}
 
-const projects = [
+interface Project {
+  name: string;
+  pic: string;
+  url: string;
+}
+
+const projects: Project[] = [
   {
     name: "Realize XML diff viewer with React & TypeScript",
     pic: xml_diff,
@@ -80,6 +64,35 @@ const projects = [
     url: "https://github.com/CodewJoy/soul_fun",
   },
 ];
+
+const StyledWrapper = styled.section`
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  font-size: 26px;
+`;
+const StyledProjectWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  font-size: 20px;
+`;
+const StyledProject = styled.div`
+  max-width: 320px;
+  padding: 10px;
+  margin: 12px;
+  border: 1px solid lightgray;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+`;
+const StyledPic = styled.img`
+  border: 1px solid gray;
+  height: auto;
+  width: 300px;
+  text-align: center;
+`;
+
 const Projects = (props) => {
   const { t } = useTranslation();
   const { transText } = props;

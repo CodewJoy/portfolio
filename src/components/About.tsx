@@ -2,6 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import profilePic from "../images/profilePic.jpg";
 
+interface AboutProps {
+  transText: {
+    aboutMe: string;
+    hi: string;
+    intro: string;
+  };
+}
+
 const StyledWrapper = styled.section`
   width: 100%;
   text-align: center;
@@ -53,7 +61,7 @@ const StyledIntro = styled.div`
   text-align: left;
 `;
 
-const About = (props) => {
+const About: React.FC<AboutProps> = (props) => {
   const { transText } = props;
 
   return (
