@@ -9,6 +9,7 @@ import personal_blog from "../images/personal_blog.png";
 import taiwan_nice_weather from "../images/taiwan_nice_weather.png";
 import soul_fun from "../images/soul_fun.png";
 import xml_diff from "../images/xml_diff.png";
+import nextjs from "../images/nextjs.webp";
 
 interface ProjectsProps {
   transText: {
@@ -62,6 +63,16 @@ const projects: Project[] = [
     name: "Social Web App with React",
     pic: soul_fun,
     url: "https://github.com/CodewJoy/soul_fun",
+  },
+  {
+    name: "Full-Stack Event Registration System with Next.js and PostgreSQL",
+    pic: nextjs,
+    url: "https://github.com/CodewJoy/event-registration-system",
+  },
+  {
+    name: "Full-Stack Recipe Management App with Next.js and SQLite",
+    pic: nextjs,
+    url: "https://github.com/CodewJoy/tasty-next",
   },
 ];
 

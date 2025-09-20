@@ -40,6 +40,10 @@ const resources: Resources = {
         "Realize Room Allocation with Custom component in React & TypeScript",
       "Realize XML diff viewer with React & TypeScript":
         "Realize XML diff viewer with React & TypeScript",
+      "Full-Stack Recipe Management App with Next.js and SQLite":
+        "Full-Stack Recipe Management App with Next.js and SQLite",
+      "Full-Stack Event Registration System with Next.js and PostgreSQL":
+        "Full-Stack Event Registration System with Next.js and PostgreSQL",
     },
   },
   [ZH]: {
@@ -69,6 +73,10 @@ const resources: Resources = {
         "用 React 與 TypeScript 實作自訂元件與最佳房間分配",
       "Realize XML diff viewer with React & TypeScript":
         "用 React 與 TypeScript 中實現 XML 差異比較",
+      "Full-Stack Recipe Management App with Next.js and SQLite":
+        "使用 Next.js 和 SQLite 開發的全端食譜管理應用",
+      "Full-Stack Event Registration System with Next.js and PostgreSQL":
+        "使用 Next.js 和 PostgreSQL 開發的全端活動報名系統",
     },
   },
 };
