@@ -17,6 +17,7 @@ interface ExperienceItem {
   company: string;
   title: string;
   time: string;
+  highlights: string[];
   skill: string[];
 }
 const experience: ExperienceItem[] = [
@@ -24,6 +25,16 @@ const experience: ExperienceItem[] = [
     company: "Groundhog Technologies",
     title: "Frontend Web Developer",
     time: "2020.06 - Present",
+    highlights: [
+      "Developed enterprise-grade B2B geospatial analytics platforms using React, TypeScript, Redux, and Styled-Components.",
+      "Built high-performance data visualization with Mapbox (2D/3D), Highcharts, Canvas, and SVG for large-scale geospatial datasets.",
+      "Reduced initial loading time from 5s to under 0.5s through virtualization, lazy loading, and selective rendering.",
+      "Collaborated with backend engineers to optimize API design, Vector Tiles, and GeoJSON delivery for scalable map rendering.",
+      "Created reusable UI components, including drag-and-drop report builders, improving consistency and development efficiency.",
+      "Refactored component architecture to reduce unnecessary re-renders and improve maintainability.",
+      "Leveraged AI-assisted development (Claude Code) for architecture, refactoring, debugging, and rapid prototyping.",
+      "Owned frontend delivery for two production applications, working closely with PMs, designers, backend engineers, and QA.",
+    ],
     skill: [
       "JavaScript",
       "TypeScript",
@@ -45,6 +56,11 @@ const experience: ExperienceItem[] = [
     company: "AppWorks School",
     title: "Front-End Trainee",
     time: "2019.11 - 2020.04",
+    highlights: [
+      "Selected from 300+ applicants with a 10% acceptance rate.",
+      "Built two web applications and two developer tools during an intensive 16-week engineering program.",
+      "Collaborated with backend and iOS engineers to deliver chatbot and e-commerce features in an Agile team.",
+    ],
     skill: [
       "JavaScript",
       "React",
@@ -106,6 +122,12 @@ const Experience = (props) => {
       <StyledTimelineContent>
         <h3>{item.title}</h3>
         <div>{item.company}</div>
+        <br />
+        <ul>
+          {item.highlights.map((highlight) => (
+            <li key={highlight}>{highlight}</li>
+          ))}
+        </ul>
         <StyledSkill>
           {item.skill.map((s, i) => (
             <StyledBadge key={`${s}-${i}`}>{s}</StyledBadge>

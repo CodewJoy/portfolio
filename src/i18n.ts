@@ -28,7 +28,7 @@ const resources: Resources = {
       AboutMe: "ABOUT ME",
       Hi: "Hi",
       Intro:
-        "👋  Hello! I'm Joy Hung, a front-end professional with 5+ years of experience. Familiar with HTML, CSS, JavaSript, TypeScript, React and Redux. Love to study how different technologies are implemented. Aim to be a problem-solver willing to do cross-functional communication. 💜",
+        "👋 Hello! I'm Joy Hung, a Front-End Engineer with 6+ years of experience building enterprise-scale B2B analytics platforms. I specialize in large-scale data visualization, performance optimization, and scalable React architecture. Passionate about AI-assisted development and always looking for better ways to solve complex engineering problems. 💜",
       "Map Animation with Mapbox": "Map Animation with Mapbox",
       "Markdown Blog with Next.js": "Markdown Blog with Next.js",
       "Realtime Weather App with React Hooks":
@@ -59,7 +59,7 @@ const resources: Resources = {
       AboutMe: "關於我",
       Hi: "嗨",
       Intro:
-        "👋 你好。我是洪以真，一個有 5+ 年經驗的前端工程師。熟悉 HTML，CSS，JavaSript，TypeScript，React 與 Redux。喜歡研究不同前端應用技術，樂意與不同部門溝通並解決問題 💜",
+        "👋 嗨，我是 Joy Hung，一位擁有 6 年以上經驗的前端工程師，專注於打造企業級 B2B 分析平台。我擅長大型資料視覺化、效能最佳化，以及可擴展的 React 架構設計，並熱衷於 AI 輔助開發，持續探索更有效率的方式解決複雜的工程問題。💜",
       "3D Map Data Visualization with Threebox":
         "使用 Threebox 製作 3D 地圖資料視覺化",
       "Map Animation with Mapbox": "使用 Mapbox 製作地圖動畫",

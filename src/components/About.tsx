@@ -9,6 +9,15 @@ interface AboutProps {
     intro: string;
   };
 }
+const skills: string[] = [
+  "HTML5",
+  "CSS3",
+  "TypeScript",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Zustand",
+];
 
 const StyledWrapper = styled.section`
   width: 100%;
@@ -60,7 +69,20 @@ const StyledIntro = styled.div`
   font-size: 16px;
   text-align: left;
 `;
-
+const StyledSkill = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 12px;
+`;
+const StyledBadge = styled.div`
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  border-radius: 10px;
+  background: #f9f5e9;
+`;
 const About: React.FC<AboutProps> = (props) => {
   const { transText } = props;
 
@@ -77,6 +99,11 @@ const About: React.FC<AboutProps> = (props) => {
             <h5>{transText.hi} :)</h5>
             <br />
             {transText.intro}
+            <StyledSkill>
+              {skills.map((s, i) => (
+                <StyledBadge key={`${s}-${i}`}>{s}</StyledBadge>
+              ))}
+            </StyledSkill>
           </StyledIntro>
         </StyledCard>
       </StyledContentWrapper>
